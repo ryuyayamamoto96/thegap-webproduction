@@ -800,7 +800,8 @@ footer .inner {
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-        position: fixed;
+        position: relative;
+        background-color: #edecea;
     }
     .pc-nav {
         display: none;
@@ -822,7 +823,7 @@ footer .inner {
         display: block;
         width: 30px;
         height: 30px;
-        position: relative;
+        position: fixed;
         z-index: 100;
         margin-right: 3%;
     }    
@@ -855,7 +856,8 @@ footer .inner {
         right: 0;
         z-index: 100;
         background-color: #edecea;
-        padding: 20% 5%;
+        padding: 50% 5%;
+        top: 0;
     }
     .nav-item {
         display: grid;
@@ -868,14 +870,15 @@ footer .inner {
         padding-left: 32px;
         padding-bottom: 32px;
     }
-    .nav-txt p {
-        padding-right: 32px;
+    .nav-txt a {
         text-align: right;
         border-bottom: 3px dashed;
-        margin-bottom: 40px;
         line-height: 24px;
+        padding-top: 4px;
+        padding-right: 32px;
+        margin-bottom: 40px;
     }
-    .nav-txt p::after {
+    .nav-txt a::after {
         content: "";
         width: 20px;
         height: 20px;
@@ -905,7 +908,7 @@ footer .inner {
         border-right: 1px solid #8e8e8e;
         transform: rotate(45deg);
         right: 5%;
-        top: 25%;
+        top: 72%;
     }
     #nav_toggle.active span:first-child {
         -webkit-transform: translateY(10px) rotate(45deg);
