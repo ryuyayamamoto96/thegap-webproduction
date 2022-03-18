@@ -584,9 +584,8 @@ footer .inner {
 .contact-small-botton {
     width: 220px;
     height: 44px;
-    background: aqua;
     border-radius: 50px;
-    border: 1px solid #000;
+    border: 1px solid #76a8c0;
     position: absolute;
     right: 5%;
     top: -15%;
@@ -606,6 +605,7 @@ footer .inner {
     font-weight: 600;
     line-height: 42px;
     letter-spacing: 4px;
+    color: #76a8c0;
 }
 
 .price-contact p:last-child {
@@ -797,6 +797,9 @@ footer .inner {
     }
     .pc-nav {
         display: none;
+    }
+    .pc-nav .nav-txt, .pc-nav .contact-service-botton, .pc-nav .nav-privacy {
+        display: block;
     }
     nav {
         position: fixed;
