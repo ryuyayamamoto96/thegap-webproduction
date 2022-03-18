@@ -472,6 +472,12 @@ footer .inner {
 
 /* 事業紹介｜the gap WEB PRODUCTION */
 
+
+#service-hero {
+    background-color: #edecea;
+    color: #1B1C1C;
+}
+
 #service-hero h1 {
     font-size: 64px;
     padding-top: 16px;
@@ -586,6 +592,7 @@ footer .inner {
     height: 44px;
     border-radius: 50px;
     border: 1px solid #76a8c0;
+    background-color: white;
     position: absolute;
     right: 5%;
     top: -15%;
